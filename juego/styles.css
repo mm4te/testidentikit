@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* html {
+    scroll-behavior: smooth;
+  } */
+body{
+    background-image: url(https://sf.ezoiccdn.com/ezoimgfmt/www.roc21.com/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-8.jpg?ezimgfmt=rs:372x186/rscb1/ng:webp/ngcb1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(43, 43, 43);
+    padding: 30px;
+    border-radius: 20px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.juego{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+.nav_item a:hover{
+    color:rgb(240, 240, 0)
+}
+.juego:hover{
+    background-color: rgb(240, 240, 0);
+    cursor: pointer;
+    color: black !important;    
+}
+.active{
+    border-bottom: 2px solid rgb(240, 240, 0); 
+}
+main{
+    height: 75vh;
+    
+}
+.nivel_titulo{
+    text-align: center;
+    
+}
+.contenedor_carta{
+    background-color: white;
+    min-height: 450px;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.header_carta{
+    text-align: center;
+    height: 250px;
+}
+.pregunta_carta{
+    font-size: 25px;
+    font-weight: bold;
+    color: #f0f0f0;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 20px;
+}
+.img_carta{
+    height: 200px;
+}
+
+.contenedor_preguntas{
+    margin: 0 100px;
+    height: 200px;
+    
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-spacing: 30px 30px;
+}
+.preguntas_link {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.preguntas_link:hover {
+    background-color: #e0e0e0;
+}
+

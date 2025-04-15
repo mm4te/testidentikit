@@ -1,0 +1,88 @@
+* {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+body{
+  background-image: url(https://sf.ezoiccdn.com/ezoimgfmt/www.roc21.com/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-8.jpg?ezimgfmt=rs:372x186/rscb1/ng:webp/ngcb1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: rgb(43, 43, 43);
+  padding: 30px;
+  border-radius: 20px;
+}
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.juego{
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+.nav_item a:hover{
+  color:rgb(240, 240, 0)
+}
+.juego:hover{
+  background-color: rgb(240, 240, 0);
+  cursor: pointer;
+  color: black !important;    
+}
+.active{
+  border-bottom: 2px solid rgb(240, 240, 0); 
+}
+
+  .container {
+    background: white;
+    margin: 60px auto;
+    padding: 40px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  h1 {
+    font-size: 36px;
+    color: #ff3333;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    background-color: #ffe100;
+    color: black;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: #ffcc00;
+  }
