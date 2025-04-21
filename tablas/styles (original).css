@@ -2,23 +2,24 @@
     font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
+    color: white;
 }
 /* html {
     scroll-behavior: smooth;
   } */
-body {
+body{
     background-image: url(https://sf.ezoiccdn.com/ezoimgfmt/www.roc21.com/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-8.jpg?ezimgfmt=rs:372x186/rscb1/ng:webp/ngcb1);
     background-repeat: no-repeat;
     background-size: cover;
 }
-li {
+li{
     list-style: none;
 }
-a {
+a{
     text-decoration: none;
     color: white;
 }
-.nav {
+.nav{
     width: 80%;
     margin: 0 auto;
     margin-top: 10px;
@@ -26,49 +27,46 @@ a {
     padding: 30px;
     border-radius: 20px;
 }
-.nav-list {
+.nav-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.juego {
+
+.juego{
     background-color: yellow;
     padding: 10px;
     border-radius: 5px;
     color: black;
 }
-.nav_item a:hover {
-    color: rgb(240, 240, 0);
+.nav_item a:hover{
+    color:rgb(240, 240, 0)
 }
-.juego:hover {
+.juego:hover{
     background-color: rgb(240, 240, 0);
     cursor: pointer;
-    color: black !important;
+    color: black !important;    
 }
-.active {
-    border-bottom: 2px solid rgb(240, 240, 0);
+.active{
+    border-bottom: 2px solid rgb(240, 240, 0); 
 }
-.container {
-    display: flex;
-    margin: 20px;
+.tabla_1>tr>td {
+    border: 1px solid #000;
+}
+a {
+    text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
 
-.main-content {
-    min-height: 70vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    flex-grow: 1;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    color: black;
+.grupo {
+    font-size: 20px;
+    font-weight: bold;
 }
-.main-content h2 {
-    margin-bottom: 30px;
-}
+
 .td_center {
     text-align: center;
 }
@@ -109,7 +107,13 @@ a {
 .tabla_1 {
     /* margin-top: 50px; */
     padding: 20px;
+
 }
-td {
-    border: 2px solid #ccc;
+
+.tabla_2 {
+    margin-top: 100px;
+}
+
+.tierlist {
+    margin-top: 100px;
 }
